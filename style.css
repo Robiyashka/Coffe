@@ -280,11 +280,20 @@ h2 {
   width: 100%;
   max-width: 960px;
   height: 1633px;
+  margin: auto;
+
+   display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 ustundan iborat grid */
+    gap: 20px; /* Kartalar orasidagi masofa */
+    padding: 20px;
 }
 .main_more_products_box {
   width: 100%;
   max-width: 317px;
   height: 497px;
+
+  padding: 15px;
+  text-align: center;
 }
 .main_more_products_box img {
   width: 300px;
