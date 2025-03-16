@@ -449,8 +449,8 @@ h2 {
 }
 @media screen and (max-width: 670px) {
   .container {
-    padding: 20px;
-    
+    width: 100%;
+    max-width: 100%;
   }
   header {
     width: 100%;
@@ -458,7 +458,7 @@ h2 {
   }
   .header_top span{
     width: 100%;
-    max-width: 90px;
+    max-width: 100%;
 
   }
   .header_top_navbar a {
