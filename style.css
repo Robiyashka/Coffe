@@ -56,6 +56,15 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.header_top_navbar_btn h5 {
+  color: #1d1f2e;
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 .header_top_navbar_btn h4 {
   width: 20px;
@@ -356,7 +365,6 @@ h2 {
   gap: 50px;
   margin-top: 100px;
   margin-left: 250px;
-
 }
 .promo_offer_image {
   width: 100%;
@@ -392,7 +400,7 @@ h2 {
   line-height: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color:#1D1F2E;
+  color: #1d1f2e;
 }
 .promo_offer_text h1 {
   width: 237px;
@@ -401,7 +409,7 @@ h2 {
   font-weight: 400;
   font-size: 36px;
   line-height: 50px;
-  color:#1D1F2E;
+  color: #1d1f2e;
   margin-top: 14px;
 }
 .promo_offer_text p {
@@ -411,32 +419,76 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  color:#1D1F2EB2;
+  color: #1d1f2eb2;
   margin-top: 15px;
 }
 .promo_offer_text button {
   width: 173px;
   height: 35px;
-  background-color:#1D1F2E;
-  border:none;
-  color: #FFFFFF;
+  background-color: #1d1f2e;
+  border: none;
+  color: #ffffff;
   text-transform: uppercase;
   font-family: Karla;
   margin-top: 29.5px;
 }
-.promo_offer_text button:hover{
-  color:#1D1F2E;
-  background-color:#FFFFFF;
-  border:1px solid;
+.promo_offer_text button:hover {
+  color: #1d1f2e;
+  background-color: #ffffff;
+  border: 1px solid;
 }
-.footer_Cofe_img{
+.footer_Cofe_img {
   width: 100%;
   height: 340px;
   margin-top: 130px;
 }
-.footer_Cofe_img img{
+.footer_Cofe_img img {
   width: 100%;
   max-width: 1440px;
   height: 340px;
 }
+@media screen and (max-width: 670px) {
+  .container {
+    padding: 20px;
+    
+  }
+  header {
+    width: 100%;
+    max-width: 100% !important;
+    padding: 22px 25px;
+  }
+  .header_top span{
+    width: 100%;
+    max-width: 90px;
 
+  }
+  .header_top_navbar a {
+    display:none;
+  }
+  .header_top_navbar_btn{
+    margin-left: 100px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .main_informationCofe {
+    width: 100%;
+    max-width: 100%;
+  }
+  .main_informationCofe h1 {
+    width: 100%;
+    max-width:400px;
+    height: 50px;
+  }
+  .main_informationCofe p {
+    width: 100%;
+    max-width:400px;
+    height: 100%;
+    margin-top: 70px;
+   
+  }
+  .main_informationCofe button {
+    width: 110px;
+    height: 30px;
+  }
+
+}
