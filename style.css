@@ -541,11 +541,14 @@ max-width: 670px;
 }
 .main_more_products{
   max-width: 600px;
-  display: grid;
+    display: grid;
   grid-template-columns: repeat(1fr, 1fr);
+  margin-top: 3px;
+  align-items:center;
+  display: none;
 }
 .promo_offer_title{
-  margin-top: 1000000px;
+  margin-top: 100000px;
 }
 
 }
