@@ -540,8 +540,12 @@ max-width: 670px;
   margin-top: 700px;
 }
 .main_more_products{
+  max-width: 600px;
   display: grid;
-  grid-template-columns: repeat(1fr, 8fr);
+  grid-template-columns: repeat(1fr, 1fr);
+}
+.promo_offer_title{
+  margin-top: 1000px;
 }
 
 }
